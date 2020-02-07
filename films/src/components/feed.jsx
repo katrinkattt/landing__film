@@ -6,6 +6,7 @@ export default function Feed(){
         <div className="feed__main">
             <Post />
             <Post />
+            <Post />
         </div>
     )
 }
