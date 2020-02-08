@@ -5,9 +5,9 @@ export default class MenuLeft extends Component{
         return(
             <div className="menu__main">
                 <ul className="navbar__left">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Категориии</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="#">Аниме</a></li>
+                    <li><a href="#">Кино</a></li>
                     <li><a href="#">Комедии</a></li>
                     <li><a href="#">Триллер</a></li>
                     <li><a href="#">Мелодрамма</a></li>
