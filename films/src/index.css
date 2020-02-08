@@ -72,11 +72,12 @@ body {
 }
 
 .line__post {
-  width: 900px;
-  margin: auto;
   padding-top: 90px;
-  display: flex;
-  justify-content: center;
+  margin-left: 200px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  overflow: hidden;
 }
 
 .post__main {
@@ -84,10 +85,9 @@ body {
   width: 300px;
   background-color: #312f2f;
   box-shadow: #00000096 2px 3px 3px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  display: flex;
-  justify-content: center;
+  margin: 0 0 16px 20px;
+  background-size: cover !important;
+  float: left;
 }
 .post__main a {
   height: 100%;
