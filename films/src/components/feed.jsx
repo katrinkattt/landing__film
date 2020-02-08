@@ -4,9 +4,16 @@ import Post from './post';
 export default function Feed(){
     return(
         <div className="feed__main">
-            <Post />
-            <Post />
-            <Post />
+            <div className="line__post">
+                <Post />
+                <Post />
+                <Post />
+            </div>
+            <div className="line__post">
+                <Post />
+                <Post />
+                <Post />
+            </div>
         </div>
     )
 }
