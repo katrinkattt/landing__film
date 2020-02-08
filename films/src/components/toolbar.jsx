@@ -5,6 +5,7 @@ export default class Toolbar extends Component{
         return(
             <div className="toolbar__main">
                 <div>
+                    <div id="menuLeft">меню</div>
                     <a href="#kino">кино</a>
                     <a href="#serials">сериалы</a>
                     <a href="#anime">аниме</a>
