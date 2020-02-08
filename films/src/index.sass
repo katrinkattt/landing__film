@@ -1,19 +1,21 @@
+$menuBcg: #312f2f
+$howerText: #3a98a8
+
 body
-    padding: 0
-    margin: 0
-    background-color: #fff
+  padding: 0
+  margin: 0
 
 .main__page
   height: 100vh
   width: 100%
   margin: 0
   padding: 0
-  background: #dcebf0
+  background: #292629
 
 .menu__main
     height: 100vh
     width: 180px
-    background-color:  #e7e6e6
+    background-color:  $menuBcg
     float: left
     border-left: 5px solid #f59b25
     border-right: 1px solid #6666668c
@@ -25,19 +27,23 @@ body
   list-style-type: none
   width: 180px
   li
-    border-bottom: 1px solid #66666683
+    border-bottom: 1px solid #130f0f83
   a
-    background-color: #e7e6e6
-    color: #33ADFF
+    background-color: $menuBcg
+    color: #31818f
     padding: 5px
     text-decoration: none
     font-weight: bold
     display: block
+    &:hover
+      color: $howerText
+
 
 .toolbar__main
   height: 35px
   width: 100%
-  background-color: #ffffff
+  background-color: $menuBcg
+  color:#31818f
   font-size: larger
   font-weight: bold
   position: fixed
@@ -46,12 +52,15 @@ body
   box-shadow: #0000003d 2px 2px 2px
   padding-top: 10px
   &:hover
-    background-color: #b5f1fc
+    background-color: #383737
   a
     text-decoration: none
-    color:#2f2f2fda
+    color:$howerText
     margin-left: 35px
     margin-top: 12px
+    &:hover
+      color: #3a98a8
+      text-shadow: #0c1d20 1px 1px 1px
 
 .feed__main
   width: 900px
@@ -66,7 +75,7 @@ body
 .post__main
   height: 300px
   width: 300px
-  background-color: #ffffff
+  background-color: $menuBcg
   box-shadow: #00000096 2px 3px 3px
   margin-bottom: 30px
   margin-left: 30px
@@ -76,3 +85,5 @@ body
     height: 100%
     width: 100%
     cursor: pointer
+    &:hover
+      background: #3b3a3a
