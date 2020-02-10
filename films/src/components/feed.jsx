@@ -8,8 +8,9 @@ export default function Feed(){
                 <Post />
                 <Post />
                 <Post />
-            </div>
-            <div className="line__post">
+                <Post />
+                <Post />
+                <Post />
                 <Post />
                 <Post />
                 <Post />
