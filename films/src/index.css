@@ -93,3 +93,9 @@ body {
   background: #383737;
   cursor: pointer;
 }
+
+.post__foto {
+  height: 200px;
+  width: 200px;
+  background: #111111;
+}
