@@ -89,11 +89,7 @@ body {
   background-size: cover !important;
   float: left;
 }
-.post__main a {
-  height: 100%;
-  width: 100%;
+.post__main:hover {
+  background: #383737;
   cursor: pointer;
-}
-.post__main a:hover {
-  background: #3b3a3a;
 }
